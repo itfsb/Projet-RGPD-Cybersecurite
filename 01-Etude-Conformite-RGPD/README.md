@@ -69,7 +69,7 @@ Le dossier contient une étude de conformité RGPD appliquée au cas d'un site h
 
 **Document associé :**
 
-[Consulter l'étude de conformité RGPD](./Etude-Conformite-RGPD(1).pdf)
+[Consulter l'étude de conformité RGPD](./Etude_Conformite_RGPD (1).pdf)
 
 ---
 
