@@ -67,10 +67,6 @@ L'analyse est organisée autour de dix axes :
 
 Le dossier contient une étude de conformité RGPD appliquée au cas d'un site hôtelier.
 
-**Document associé :**
-
-[Consulter l'étude de conformité RGPD](./Etude_conformite_RGPD(1).pdf)
-
 ---
 
 ## Compétences mobilisées
