@@ -1,128 +1,109 @@
-# Projet-RGPD-Cybersecurite
-Projet de mise en conformité RGPD et de sécurisation des données personnelles
+# Projet RGPD et cybersécurité
 
-Présentation
+![RGPD](https://img.shields.io/badge/RGPD-Protection%20des%20données-blue)
+![Cybersécurité](https://img.shields.io/badge/Cybersécurité-GRC-red)
+![CNIL](https://img.shields.io/badge/Référentiel-CNIL-orange)
+![ANSSI](https://img.shields.io/badge/Référentiel-ANSSI-green)
 
-Ce dépôt présente un projet académique consacré à la protection des données personnelles, à la conformité au Règlement général sur la protection des données (RGPD) et à la sécurité des systèmes d'information.
+## Présentation
 
-Le projet s'appuie sur le cas d'étude d'un groupe hôtelier, B&B Hotels. Il permet d'étudier différentes situations dans lesquelles des données personnelles sont collectées, utilisées, conservées, transmises ou exposées à des risques de sécurité.
+Ce dépôt présente un ensemble de travaux réalisés autour de la protection des données personnelles, de la conformité au Règlement général sur la protection des données (RGPD) et de la sécurité des systèmes d'information.
 
-L'objectif est de comprendre comment une organisation peut mieux maîtriser ses données, respecter les droits des personnes et mettre en place des mesures adaptées pour réduire les risques.
+Les études s'appuient principalement sur le cas d'une entreprise hôtelière, B&B Hotels, afin d'aborder plusieurs problématiques concrètes liées à la gouvernance des données et à la cybersécurité.
 
-Objectifs du projet
+L'objectif de ce projet est de mettre en pratique les principales notions de la conformité RGPD, de la gestion des traitements, de la sécurité des données et de la protection des environnements informatiques.
 
-Ce projet vise à :
+---
 
-identifier les principales données personnelles traitées par une organisation ;
-comprendre les finalités et les bases légales des traitements ;
-analyser les obligations liées au RGPD ;
-construire un registre des activités de traitement ;
-documenter des violations de données personnelles ;
-étudier les mesures de sécurité recommandées par la CNIL ;
-appliquer les bonnes pratiques de cybersécurité de l'ANSSI ;
-analyser le droit à la portabilité des données ;
-développer une approche structurée de la conformité et de la gestion des risques.
-Travaux réalisés
-1. Étude de conformité RGPD
+## Objectifs du projet
 
-Analyse d'un parcours de réservation hôtelière en ligne.
+Ce projet vise notamment à :
 
-L'étude porte notamment sur les données collectées, les données sensibles, les finalités, les bases légales, les durées de conservation, les destinataires, les droits des personnes et les mesures de mise en conformité.
+- Analyser la conformité d'un site web au RGPD.
+- Identifier les données personnelles collectées et leurs finalités.
+- Étudier les bases légales des traitements.
+- Construire un registre des activités de traitement.
+- Identifier et documenter les violations de données personnelles.
+- Appliquer les recommandations de la CNIL en matière de sécurité.
+- Mettre en œuvre les bonnes pratiques de cybersécurité recommandées par l'ANSSI.
+- Étudier le droit à la portabilité des données.
+- Développer une approche structurée de l'analyse des risques et de la conformité.
 
-2. Registre des traitements
+---
 
-Élaboration d'un registre des activités de traitement pour un groupe hôtelier.
+## Travaux réalisés
 
-Ce travail permet d'identifier les principaux traitements, les catégories de données utilisées, les personnes concernées, les finalités, les destinataires, les éventuels transferts et les mesures de sécurité associées.
+| Dossier | Thématique | Principaux éléments étudiés |
+|---|---|---|
+| [01. Étude de conformité RGPD](./01-Etude-Conformite-RGPD/) | Conformité et protection des données | Données collectées, finalités, bases légales, conservation, droits et sécurité |
+| [02. Registre des traitements](./02-Registre-des-Traitements/) | Gouvernance des données | Activités de traitement, catégories de données, destinataires, transferts et mesures de sécurité |
+| [03. Registre des violations](./03-Registre-des-Violations/) | Gestion des incidents | Violations de données personnelles, risques, mesures correctives et obligations de notification |
+| [04. Sécurité du SI selon la CNIL](./04-Securite-SI-CNIL/) | Sécurité des données | Mesures techniques et organisationnelles issues du guide pratique de la CNIL |
+| [05. Protection de l'environnement informatique selon l'ANSSI](./05-Protection-Environnement-ANSSI/) | Cybersécurité individuelle | Sauvegardes, mises à jour, mots de passe, authentification, mobilité et sensibilisation |
+| [06. Portabilité des données](./06-Portabilite-des-Donnees/) | Droits des personnes | Étude du droit à la portabilité à travers le cas de Google Takeout |
 
-3. Registre des violations de données personnelles
+---
 
-Mise en place d'un registre interne recensant plusieurs scénarios de violations de données personnelles.
+## Référentiels mobilisés
 
-Chaque incident est étudié selon sa nature, les données concernées, les personnes impactées, le niveau de risque, les actions de notification et les mesures correctives.
+- Règlement général sur la protection des données (RGPD).
+- Article 20 du RGPD relatif au droit à la portabilité.
+- Recommandations et guides pratiques de la CNIL.
+- Guide de l'ANSSI : *La cybersécurité pour les TPE/PME en 13 questions*.
+- Principes de sécurité des données personnelles.
+- Principes de minimisation, de limitation des finalités et de limitation de la conservation.
 
-4. Étude de sécurité du système d'information selon la CNIL
+---
 
-Analyse de la sécurité d'un système d'information hôtelier à partir des recommandations du guide pratique RGPD de la CNIL relatif à la sécurité des données personnelles.
+## Compétences mobilisées
 
-5. Protection de l'environnement informatique selon l'ANSSI
+### Gouvernance et conformité
 
-Application des recommandations du guide de l'ANSSI « La cybersécurité pour les TPE/PME en 13 questions » à un environnement informatique personnel.
+- Analyse de conformité RGPD.
+- Identification des obligations applicables.
+- Analyse des bases légales.
+- Étude des droits des personnes.
+- Documentation des traitements.
+- Identification des parties prenantes et des destinataires.
 
-6. Étude de portabilité des données
+### Protection des données
 
-Analyse du fonctionnement de Google Takeout au regard du droit à la portabilité prévu par l'article 20 du RGPD.
+- Classification des données personnelles.
+- Analyse des durées de conservation.
+- Étude des transferts de données.
+- Identification des données sensibles.
+- Analyse des mesures de protection.
 
-L'étude examine notamment les catégories de données exportées, les formats proposés, les conditions de transfert et les limites du dispositif.
+### Cybersécurité
 
-Méthodologie générale
+- Analyse des risques liés aux données personnelles.
+- Étude des mesures techniques et organisationnelles.
+- Gestion des violations de données.
+- Sécurisation des comptes et des équipements.
+- Sauvegarde et restauration des données.
+- Sensibilisation aux bonnes pratiques de sécurité.
 
-La démarche suivie repose sur plusieurs étapes :
+---
 
-Comprendre le contexte et les activités étudiées.
-Identifier les données personnelles concernées.
-Déterminer les finalités des traitements.
-Examiner les bases légales applicables.
-Identifier les personnes et les destinataires concernés.
-Analyser les durées de conservation et les transferts éventuels.
-Évaluer les risques pour les données personnelles.
-Étudier les mesures techniques et organisationnelles.
-Documenter les résultats.
-Proposer des pistes d'amélioration lorsque cela est nécessaire.
-Référentiels mobilisés
-Règlement général sur la protection des données (RGPD)
-Article 5 : principes relatifs au traitement des données
-Article 6 : licéité du traitement
-Article 9 : catégories particulières de données
-Article 20 : droit à la portabilité
-Article 30 : registre des activités de traitement
-Article 32 : sécurité du traitement
-Articles 33 et 34 : violations de données personnelles
-CNIL
-ANSSI
-Guide pratique RGPD de la CNIL relatif à la sécurité des données personnelles
-Guide ANSSI « La cybersécurité pour les TPE/PME en 13 questions »
-Compétences mobilisées
-Gouvernance et conformité
-Analyse des obligations du RGPD
-Identification des bases légales
-Analyse des finalités
-Gestion des durées de conservation
-Identification des destinataires
-Documentation de la conformité
-Prise en compte des droits des personnes
-Protection des données
-Identification et classification des données
-Analyse des données sensibles
-Registre des traitements
-Droit à la portabilité
-Gestion des violations de données personnelles
-Cybersécurité
-Analyse des risques
-Identification des mesures de protection
-Sécurité des postes et des systèmes
-Sauvegardes
-Gestion des accès
-Authentification multifacteur
-Sensibilisation des utilisateurs
-Protection des données en mobilité
-Livrables
-Étude de conformité RGPD
-Registre des traitements
-Registre des violations de données personnelles
-Étude de sécurité du système d'information selon la CNIL
-Rapport de protection de l'environnement informatique selon l'ANSSI
-Étude de portabilité des données avec Google Takeout
-Limites du projet
+## Organisation du dépôt
 
-Ce dépôt présente des travaux académiques réalisés à partir d'un cas d'étude et de scénarios documentés.
+Chaque dossier contient :
 
-Il ne constitue pas un audit officiel de B&B Hotels et ne repose pas sur un accès à son système d'information interne. Les situations, analyses et mesures présentées doivent donc être comprises dans le cadre pédagogique du projet.
+- Un fichier `README.md` présentant le sujet et les objectifs de l'étude.
+- Le document PDF correspondant au travail réalisé.
+- Une présentation structurée des notions et compétences mobilisées.
 
-Organisation du dépôt
-01-Etude-Conformite-RGPD : analyse de conformité d'un parcours de réservation hôtelière
-02-Registre-des-Traitements : registre des activités de traitement
-03-Registre-des-Violations : documentation de violations de données personnelles
-04-Securite-SI-CNIL : étude de sécurité selon les recommandations de la CNIL
-05-Protection-Environnement-ANSSI : application du guide ANSSI
-06-Portabilite-des-Donnees : étude de Google Takeout et du droit à la portabilité
+---
+
+## Positionnement du projet
+
+Ce projet constitue une mise en pratique académique de plusieurs activités associées à la cybersécurité GRC, notamment :
+
+- La conformité réglementaire.
+- La protection des données personnelles.
+- La documentation des traitements.
+- La gestion des risques.
+- La sécurité de l'information.
+- La préparation à des missions de conseil et d'accompagnement.
+
+> Les travaux présentés correspondent à des études académiques réalisées à partir de cas et de référentiels publics. Ils ne constituent pas un audit officiel des systèmes d'information de B&B Hotels.
